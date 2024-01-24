@@ -1,6 +1,9 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/chat-app");
+// mongoose.connect("mongodb://localhost:27017/chat-app");
+mongoose.connect(
+  "mongodb+srv://vishwanathramaswamy:BT6c9yBAD0A7iB02@cluster0.l0fscnd.mongodb.net/"
+);
 
 const connectDb = async () => {
   try {
