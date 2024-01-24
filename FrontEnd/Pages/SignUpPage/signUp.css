@@ -1,0 +1,122 @@
+:root {
+  --labelFont: 24px;
+  --inputFont: 18px;
+  --inputMarginTopAndBottom: 6px 0px;
+  --inputBorderRadious: 10px;
+  --inputPadding: 8px;
+  --inputBackgroundColor: rgba(226, 215, 215, 0.957);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pokSignupMainMainContainer {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+  background-color: rgb(61, 57, 48);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.pokSignupMainContainer {
+  height: 75%;
+  width: 25%;
+  border: 2px double white;
+  padding: 30px 20px;
+  background-color: rgba(32, 30, 30, 0.287);
+  border-radius: 20px;
+}
+
+/* Childs of Main :  */
+.pokSignupMainNav {
+  height: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pokSignupMainBody {
+  height: 60%;
+}
+.pokSignupMainFooter {
+  height: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar :  */
+.pokSignupMainNavHeading {
+}
+.pokSignupMainNavHeadingErrorMsg {
+  color: rgb(128, 255, 0);
+  display: none;
+}
+
+/* Body :  */
+.pokSignupMainBodyForm {
+  padding: 0px 20px;
+}
+
+.pokSignupFNameLabel,
+.pokSignupLNameLabel,
+.pokSignupEmailLabel,
+.pokSignupPasswordLabel {
+  display: block;
+  font-size: var(--labelFont);
+}
+
+.pokSignupFNameImput,
+.pokSignupLNameImput,
+.pokSignupEmailImput,
+.pokSignupPasswordImput {
+  display: block;
+  font-size: var(--inputFont);
+  padding: var(--inputPadding);
+  width: 95%;
+  border-radius: var(--inputBorderRadious);
+  background-color: var(--inputBackgroundColor);
+  margin: var(--inputMarginTopAndBottom);
+  border: none;
+}
+
+.pokSignupEmailImputValidationText,
+.pokSignupPasswordImputValidationText,
+.pokSignupFNameImputValidationText {
+  color: rgb(128, 255, 0);
+  font-size: 13px;
+  text-align: center;
+  display: none;
+}
+
+/* Footer :  */
+.pokSignupSignupBtn {
+  font-size: 20px;
+  padding: 10px 80px;
+  border-radius: 20px;
+  background-color: rgba(128, 114, 114, 0.456);
+  border: 2px double white;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.pokSignupLoginDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pokSignupLoginDivText {
+}
+.pokSignupLoginDivLink {
+  font-size: 20px;
+  color: greenyellow;
+}

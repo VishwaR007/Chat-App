@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main heading of the page :  */
+.mainHeadingOfThePage {
+}
+
+/* Main Container :  */
+.mainContainer {
+  height: 99.5vh;
+  background-color: 047c87;
+  display: flex;
+}
+
+/* Childs of Main Container :  */
+.leftMainContainer {
+  width: 25%;
+  height: 100%;
+  /* background-color: gray; */
+}
+.rightMainContainer {
+  width: 75%;
+  height: 100%;
+  /* background-color: green; */
+  background-image: url(bac2.png);
+  /* background-image: url(bac1.jpg); */
+}
+
+/* Childs of Left Main Container :  */
+.contactsMainContainer {
+  height: 100%;
+  /* width: 300px; */
+  /* background-color: blue; */
+}
+
+.contactsSectionZeroMain {
+  background-color: #03393e;
+  color: wheat;
+  height: 7%;
+  padding: 10px;
+}
+
+.contactsSectionOneMain {
+  height: 43%;
+  background-color: rgb(243, 239, 235);
+}
+
+.contactsSectionOne {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.contactsHeadingOne {
+  background-color: #047c87;
+  padding: 5px;
+  /* background-color: #03393e; */
+}
+
+.contactsSectionTwoMain {
+  /* background-color: rgb(231, 176, 73); */
+  background-color: rgb(243, 239, 235);
+  height: 45%;
+}
+
+.contactsSectionTwo {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.contactsHeadingTwo {
+  background-color: #047c87;
+  padding: 5px;
+}
+
+.contactsNameSection {
+  width: 93%;
+  border: 1px solid black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.contactsFirstLetter {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 5px;
+}
+.contactsName {
+}
+
+/* Childs of Right Main Container :  */
+/* Nav :  */
+.rightNavMainContainer {
+  height: 10%;
+  background-color: #03393e;
+  color: white;
+}
+.rightNavNameSection {
+  width: 70%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+.rightNavNameFirstLetter {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+.rightNavName {
+}
+
+/* Body :  */
+.rightBodyMainContainer {
+  padding: 10px;
+  height: 80%;
+  overflow-y: scroll;
+}
+.msgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.msg {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px 10px 10px 0px;
+}
+
+/* Footer : */
+.rightFooterMainContainer {
+  height: 7%;
+  /* background-color: darkred; */
+}
+.rightFooterInput {
+  font-size: 25px;
+  padding: 5px 20px;
+  width: 85%;
+}
+.rightFooterSubmitBtn {
+  width: 10%;
+  font-size: 25px;
+  padding: 6px 15px;
+}
