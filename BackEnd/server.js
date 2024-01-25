@@ -31,6 +31,9 @@ app.get("/signUp", async (req, res) => {
     path.join(__dirname, "../FrontEnd/Pages/SignUpPage/signUp.html")
   );
 });
+app.get("/", async (req, res) => {
+  res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LoginPage/logIn.html"));
+});
 app.get("/logIn", async (req, res) => {
   res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LoginPage/logIn.html"));
 });
