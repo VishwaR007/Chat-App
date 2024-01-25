@@ -32,10 +32,10 @@ app.get("/signUp", async (req, res) => {
   );
 });
 app.get("/", async (req, res) => {
-  res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LoginPage/logIn.html"));
+  res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LogInPage/logIn.html"));
 });
 app.get("/logIn", async (req, res) => {
-  res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LoginPage/logIn.html"));
+  res.sendFile(path.join(__dirname, "../FrontEnd/Pages/LogInPage/logIn.html"));
 });
 app.get("/homePage", async (req, res) => {
   res.sendFile(
